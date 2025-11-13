@@ -2,6 +2,7 @@
 
 ## Prerequisites
 - ✅ Jailbroken PS5 10.01 with Y2JB exploit
+- ✅ ELF Loader that is enabled on port 9021 after Y2JB
 - ✅ Debug settings enabled
 - ✅ Ability to send payloads
 - ✅ 6+ years dev experience
