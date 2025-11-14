@@ -1,0 +1,21 @@
+# Ignore common Makefile output files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+*.bin
+*.elf
+*.map
+*.dep
+*.log
+*.asm
+build/
+dist/
+structs.h
+structs.inc
+kelf
+uelf
