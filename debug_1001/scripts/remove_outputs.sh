@@ -15,6 +15,14 @@ else
     echo "Warning: ps5-kstuff directory not found"
 fi
 
+# Change to ps5-kstuff-ldr directory and run make clean
+if [ -d "$REPO_ROOT/ps5-kstuff-ldr" ]; then
+    echo "Cleaning ps5-kstuff-ldr directory..."
+    cd "$REPO_ROOT/ps5-kstuff-ldr" && make clean
+else
+    echo "Warning: ps5-kstuff-ldr directory not found"
+fi
+
 # Change to lib directory and run make clean
 if [ -d "$REPO_ROOT/lib" ]; then
     echo "Cleaning lib directory..."

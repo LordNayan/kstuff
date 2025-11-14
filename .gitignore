@@ -13,6 +13,8 @@
 *.dep
 *.log
 *.asm
+payload_bin.c
+ps5-payload-dev.tar.gz
 build/
 dist/
 structs.h
