@@ -2,9 +2,9 @@
 # Requires PS5 development toolchain
 
 # Compiler settings for PS5
-CC=clang
-CFLAGS=-target x86_64-scei-ps5 -O2 -Wall -Wextra
-LDFLAGS=-target x86_64-scei-ps5
+CC=gcc
+CFLAGS=-O2 -Wall -Wextra -nostdlib -nostdinc -isystem ../freebsd-headers -I../prosper0gdb
+LDFLAGS=-static -lc
 
 # Source and output files
 SRC=kernel_dumper_10.01.c
